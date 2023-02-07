@@ -1,8 +1,12 @@
 {
-  "name": "frontend-project-46",
+  "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/StasMasorov/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/StasMasorov/frontend-project-46/actions)",
-  "main": "index.js",
+  "description": "Compares two configuration files and shows a difference.",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "main": "gendiff.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
