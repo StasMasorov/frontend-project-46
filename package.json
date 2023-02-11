@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Compares two configuration files and shows a difference.",
   "bin": {
-    "gendiff": "bin/gendiff.js"
+    "gendiff": "./bin/gendiff.js"
   },
-  "main": "gendiff.js",
+  "main": "./bin/gendiff.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,13 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/StasMasorov/frontend-project-46.git"
   },
-  "author": "",
+  "author": "Stas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StasMasorov/frontend-project-46/issues"
   },
   "homepage": "https://github.com/StasMasorov/frontend-project-46#readme",
   "dependencies": {
-    "commander": "^10.0.0"
+    "commander": "^10.0.0",
+    "lodash": "^4.17.21"
   }
 }
